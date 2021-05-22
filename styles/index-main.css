@@ -1,0 +1,189 @@
+#introduction h2 {
+    font-size: 5vh;
+    color: #CD5C5C;
+}
+
+#introduction p {
+    font-size: 3vh;
+}
+
+main article {
+    align-self: center;
+    flex: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5em;
+}
+
+a.continue {
+    margin-top: -2em;
+    text-align: center;
+    float: right;
+    display: block;
+    background-color: #CD5C5C;
+    color: #FFE4B5;
+    padding: 0.5em;
+}
+
+a.heading:hover h2 {
+    color: black;
+}
+
+a.continue:hover {
+    background-color: #F4A460;
+    color: white;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    margin-top: -1em;
+    text-align: center;
+    text-decoration: underline overline;
+    font-family: 'Cinzel', serif;
+    color: #FFDEAD;
+    font-size: 2rem;
+}
+
+
+main section {
+    border-radius: 10px;
+    background-color: #FFE4B5;
+    margin: 1.5em;
+}
+
+main section figure {
+    flex: 1;
+
+
+}
+
+main section figure a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main section figure img {
+    border-radius: 0.5em;
+    margin: auto;
+}
+
+
+
+
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    margin: 20em 0;
+    height: 0;
+}
+
+#hero_nav {
+    height: 0;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin: 5vh 0;
+    position: relative;
+    z-index: 0;
+}
+
+#hero a {
+    align-self: center;
+    white-space: nowrap;
+    border-radius: 15px;
+    transition-property: padding;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    opacity: 0.8;
+    display: block;
+    color: #FFE4B5;
+    padding: 0.8em;
+    background-color: #CD5C5C;
+    text-align: center;
+    flex-basis: 12%;
+}
+
+#hero a:hover {
+    color: white;
+    transition-delay: 0.1s;
+    background-color: #F4A460;
+    opacity: 1;
+    padding: 1.2em;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+}
+
+section article a:first-child {
+    display: flex;
+    margin-bottom: -3vh;
+}
+
+section article a:first-child::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid black;
+    align-self: center;
+    opacity: 0.7;
+    margin-top: 3vh;
+    margin-left: 1vw;
+}
+
+#author_section {
+    display: flex;
+}
+
+.author {
+    margin-right: 1.2em;
+}
+
+#publisher_section {
+    display: flex;
+}
+
+#publisher_section figure {
+    order: 2;
+}
+
+.publisher {
+    margin-left: 1.2em;
+    order: 1;
+}
+
+#book_section {
+    display: flex;
+}
+
+.book {
+    margin-right: 1.2em;
+}
+
+#review_section {
+    display: flex;
+}
+
+#review_section figure {
+    order: 2;
+}
+
+.review {
+    margin-left: 1.2em;
+    order: 1;
+}

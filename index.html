@@ -24,38 +24,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans+Condensed:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script src="javascript/nav-mobile.js" defer></script>
   </head>
   <body>
-    <header>
-       <a href="index.html"><img src="images/logo/my_logo.png" alt="This is my logo"></a>
-       <ul id="main_nav">
-           <li><a href="index.html" target="_blank" class="active" ><i class="fas fa-home" style="font-size: 1.5em; "></i></a></li>
-           <li ><a href="author/author.html" target="_blank">Author</a></li>
-           <li><a href="" target="_blank">Publisher</a></li>
-           <li class="sub_nav"><a href="" target="_blank">Book Category<span class="triangle_down">&blacktriangledown;</span><span class="triangle_up">&blacktriangle;</span></a>
-             <ul class="sub_nav_1">
-               <li><a href="" target="_blank">Economics-Finance</a></li>
-               <li><a href="" target="_blank">Classics</a></li>
-               <li><a href="" target="_blank">Modern Literature</a></li>
-               <li><a href="" target="_blank">Detective</a></li>
-               <li><a href="" target="_blank">Horror</a></li>
-               <li><a href="" target="_blank">Science-Physics-Psychology</a></li>
-               <li><a href="" target="_blank">History-Political-Biography</a></li>
-               <li><a href="" target="_blank">Others</a></li>
-             </ul>
-           </li>
-           <li><a href="" target="_blank">Book Review</a></li>
-           <li><a href="" target="_blank" >About</a></li>
+    <header id="web_header">
+      <a href="index.html"><img src="images/logo/my_logo.png" alt="This is my logo"></a>
+      <ul id="main_menu">
+        <li><a href="index.html" target="_blank" class="home_index active"><i class="fas fa-home"
+              style="font-size: 1.5em; "></i></a></li>
+        <li><a href="author/author.html" target="_blank" >Author</a></li>
+        <li><a href="" target="_blank">Publisher</a></li>
+        <li class="sub_menu"><a href="" target="_blank">Book Category<span
+              class="triangle_down">&blacktriangledown;</span><span class="triangle_up">&blacktriangle;</span></a>
+          <ul class="sub_menu_1">
+            <li><a href="" target="_blank">Economics-Finance</a></li>
+            <li><a href="" target="_blank">Classics</a></li>
+            <li><a href="" target="_blank">Modern Literature</a></li>
+            <li><a href="" target="_blank">Detective</a></li>
+            <li><a href="" target="_blank">Horror</a></li>
+            <li><a href="" target="_blank">Science-Physics-Psychology</a></li>
+            <li><a href="" target="_blank">History-Political-Biography</a></li>
+            <li><a href="" target="_blank">Others</a></li>
+          </ul>
+        </li>
+        <li><a href="" target="_blank">Book Review</a></li>
+        <li><a href="" target="_blank">About</a></li>
       </ul>
-      <form  action="http://www.google.com/search" method="get" id="search_bar">
-        <input type="search" name="search" placeholder="Search...">
-        <button type="submit" name="button" ><i class="fas fa-search" style="font-size: 1.5em;"></i></button>
+      <form action="https://www.google.com/" method="get" id="search_bar">
+        <input type="text" name="search" placeholder="Search..." autocomplete="off">
+        <button type="submit" name="submit"><i class="fas fa-search" style="font-size: 1.5em;"></i></button>
+        <button type="button" name="reset"><i class="fas fa-times"></i></button>
       </form>
     </header>
+    <header id="header_mobile">
+      <a href="index.html"><img src="images/logo/my_logo.png" alt="This is my logo"></a>
+      <div id="nav_and_search">
+        <a id="search_mobile_icon"><i class="fas fa-search" style="font-size: 1.8em;"></i></a>
+        <a id="nav_mobile"><i class="fas fa-bars" id="nav_icon"></i></a>
+      </div>
+      <ul id="main_menu_mobile">
+        <li><a href="index.html" target="_blank" class="home_index"><i class="fas fa-home"
+              style="font-size: 1.5em; "></i></a></li>
+        <li><a href="" target="_blank" class="active">Author</a></li>
+        <li><a href="" target="_blank">Publisher</a></li>
+        <li class="sub_menu_mobile"><a>Book Category<span class="triangle_down">&blacktriangledown;</span><span
+              class="triangle_up">&blacktriangle;</span></a>
+          <ul class="sub_menu_mobile_1">
+            <li><a href="" target="_blank">Economics-Finance</a></li>
+            <li><a href="" target="_blank">Classics</a></li>
+            <li><a href="" target="_blank">Modern Literature</a></li>
+            <li><a href="" target="_blank">Detective</a></li>
+            <li><a href="" target="_blank">Horror</a></li>
+            <li><a href="" target="_blank">Science-Physics-Psychology</a></li>
+            <li><a href="" target="_blank">History-Political-Biography</a></li>
+            <li><a href="" target="_blank">Others</a></li>
+          </ul>
+        </li>
+        <li><a href="" target="_blank">Book Review</a></li>
+        <li><a href="" target="_blank">About</a></li>
+      </ul>
+      <form action="http://www.google.com/search" method="get" id="search_bar_mobile">
+        <input type="search" name="search" placeholder="Search...">
+      </form>
+    </header>
+    
+    
     <main>
-       <section id="home">
+       <section id="hero">
          <h1>Welcome To FQ&Eacute;T&apos;s Library</h1> <br>
-         <div id="home_nav">
+         <div id="hero_nav">
           <a href="#author_section">Author</a>
           <a href="#publisher_section">Publisher</a>
           <a href="#book_section">Book Category</a>
@@ -65,7 +102,7 @@
        <div id="introduction">
        <section id="author_section">
          <figure>
-           <a href="author/author.html" target="_blank"><img src="images/background/author_image.jpg" alt="author image" style="margin-left: -1.5em;"></a>
+           <a href="author/author.html" target="_blank"><img src="images/background/author_image.jpg" alt="author image" class="main-image" ></a>
          </figure>
          <article class="author">
            <a href="author/author.html" target="_blank" class="heading"><h2>Author</h2></a>
@@ -76,7 +113,7 @@
        </section>
        <section id="publisher_section">
          <figure>
-           <a href="#" target="_blank"><img src="images/background/publisher_image.jpg" alt="publisher image" style="margin-left: 1.5em;"></a>
+           <a href="#" target="_blank"><img src="images/background/publisher_image.jpg" alt="publisher image" class="main-image" ></a>
          </figure>
          <article class="publisher">
            <a href="#" target="_blank" class="heading"><h2>Publisher</h2></a>
@@ -89,7 +126,7 @@
        </section>
        <section id="book_section">
          <figure>
-           <a href="#" target="_blank"><img src="images/background/book_image.jpg" alt="book image" style="margin-left: -1.5em;"></a>
+           <a href="#" target="_blank"><img src="images/background/book_image.jpg" alt="book image" class="main-image" ></a>
          </figure>
          <article class="book">
            <a href="#" target="_blank" class="heading"><h2>Book Category</h2></a>
@@ -101,7 +138,7 @@
        </section>
        <section id="review_section">
          <figure>
-           <a href="#" target="_blank"><img src="images/background/review_image.jpg" alt="goodreads image" style="margin-left: 1.5em;"></a>
+           <a href="#" target="_blank"><img src="images/background/review_image.jpg" alt="goodreads image" class="main-image" ></a>
          </figure>
          <article class="review">
            <a href="#" target="_blank" class="heading"><h2>Book Review</h2></a>
