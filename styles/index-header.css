@@ -211,6 +211,9 @@
   
   #search_bar_mobile {
     display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
   }
   
   #search_bar_mobile input {
