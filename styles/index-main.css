@@ -1,17 +1,18 @@
 #introduction h2 {
-    font-size: 5vh;
+    font-size: 2rem;
     color: #CD5C5C;
 }
 
 #introduction p {
-    font-size: 3vh;
+    font-size: 1.2rem;
 }
 
 main article {
     align-self: center;
     flex: 1;
     font-family: 'Roboto Condensed', sans-serif;
-    line-height: 1.5em;
+    line-height: 1.8rem;
+    padding: 1rem 0;
 }
 
 a.continue {
@@ -24,7 +25,7 @@ a.continue {
     padding: 0.5em;
 }
 
-a.heading:hover h2 {
+#introduction h2:hover {
     color: black;
 }
 
@@ -40,7 +41,7 @@ main {
 }
 
 main h1 {
-    margin-top: -1em;
+    margin-top: -1rem;
     text-align: center;
     text-decoration: underline overline;
     font-family: 'Cinzel', serif;
@@ -49,15 +50,17 @@ main h1 {
 }
 
 
-main section {
+#introduction section {
     border-radius: 10px;
     background-color: #FFE4B5;
-    margin: 1.5em;
+    margin: 1.5rem;
+
+    
 }
 
 main section figure {
-    flex: 1;
-
+    flex-basis: 50%;
+    align-self: center;
 
 }
 
@@ -69,8 +72,10 @@ main section figure a {
 }
 
 main section figure img {
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
     margin: auto;
+    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -104,7 +109,7 @@ main section figure img {
     opacity: 0.8;
     display: block;
     color: #FFE4B5;
-    padding: 0.8em;
+    padding: 0.8rem;
     background-color: #CD5C5C;
     text-align: center;
     flex-basis: 12%;
@@ -118,12 +123,6 @@ main section figure img {
     padding: 1.2em;
 }
 
-.main-image {
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-}
 
 
 #introduction {
@@ -133,7 +132,7 @@ main section figure img {
 
 section article a:first-child {
     display: flex;
-    margin-bottom: -3vh;
+    margin-bottom: -1.5rem;
 }
 
 section article a:first-child::after {
@@ -142,8 +141,8 @@ section article a:first-child::after {
     border-bottom: 1px solid black;
     align-self: center;
     opacity: 0.7;
-    margin-top: 3vh;
-    margin-left: 1vw;
+    margin-top: 1.3rem;
+    margin-left: 0.5rem;
 }
 
 #author_section {

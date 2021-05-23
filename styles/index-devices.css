@@ -115,28 +115,19 @@
 
 
   #hero a {
-    align-self: center;
-    white-space: nowrap;
     border-radius: 0;
     transition-property: none;
     transition-duration: 0;
     transition-delay: 0;
     opacity: 1;
-    display: block;
-    color: #FFE4B5;
-    padding: 0.8em;
-    background-color: #CD5C5C;
-    text-align: center;
     width: 80%;
     margin-bottom: 1%;
     
 }
 
 #hero a:hover {
-  color: white;
   transition-delay: 0;
-  background-color: #CD5C5C;
-  padding: 0.8em;
+  padding: 0.8rem;
 }
 
 

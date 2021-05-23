@@ -1,15 +1,15 @@
 footer {
   display: flex;
   flex-direction: column;
-  font-size: 1em;
+  font-size: 1rem;
   background: #EBDDE2;
   color: #25587E;
 }
 
 #index {
   font-family: 'Open Sans Condensed', sans-serif;
-  margin: 2em;
-  padding-top: 2em;
+  margin: 2rem;
+  padding-top: 2rem;
  
   display: flex;
   justify-content: space-around;
@@ -29,16 +29,16 @@ footer {
 
 #index ul li:first-child {
   font-weight: bold;
-  font-size: 1.5em;
-  margin-bottom: 0.5em
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem
 }
 
 #copyright {
-  margin: 1em 0 0;
-  padding: 0.5em 0 0;
+  margin: 1rem 0 0;
+  padding: .5rem 0 0;
   border-top: 1px dotted #4682B4;
   font-weight: bold;
-  font-size: 2vh;
+  font-size: 1rem;
   font-family: 'Abel', sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -56,9 +56,9 @@ footer {
 }
 
 #copyright figcaption {
-  margin-left: 1em;
+  margin-left: 1rem;
   align-self: flex-start;
-  font-size: 1em;
+  font-size: 1rem;
   user-select: none;
 }
 
@@ -68,12 +68,12 @@ footer {
 }
 
 #copyright div.contact a {
-  margin-right: 1em;
+  margin-right: 1rem;
   color: #25587E;
 }
 
 #copyright div.contact i {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 #copyright div.contact a:hover {

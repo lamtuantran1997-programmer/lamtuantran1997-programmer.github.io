@@ -20,7 +20,7 @@ img{
   width: 100%;
 }
 p {
-  font-size: 3vh;
+  font-size: 3vw;
 }
 
 a {
@@ -92,7 +92,6 @@ button[name="reset"] {
   position: absolute;
   z-index: 1;
   padding: 0;
-  margin: 0;
   display: flex;
   top: 0;
   left: 30%;
@@ -133,7 +132,7 @@ span.triangle_up {
 }
 
 #main_menu li a {
-  padding: .8em;
+  padding: .8rem;
   display: block;
   background-color: #CD5C5C;
   text-align: center;
@@ -153,23 +152,23 @@ span.triangle_up {
 }
 
 #main_menu>li:first-child a {
-  padding-top: 0.5em;
-  padding-bottom: 0.7em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.7rem;
 }
 
 #main_menu li a:hover {
   color: white;
-  padding-bottom: 0.5em;
-  border-bottom: 0.3em solid #F4A460;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.3rem solid #F4A460;
 }
 
 #main_menu li a.home_index:hover {
-  padding-bottom: 0.4em;
+  padding-bottom: 0.4rem;
 }
 
 
 #main_menu li.sub_menu>a:hover {
-  padding-bottom: 0.8em;
+  padding-bottom: 0.8rem;
   border: none;
 }
 
@@ -180,7 +179,7 @@ span.triangle_up {
 
 #nav_mobile {
   margin: 0;
-  padding: 0.1em;
+  padding: 0.1rem;
   display: none;
   cursor: pointer;
   font-size: 2em;
@@ -201,7 +200,7 @@ span.triangle_up {
 
 #search_mobile_icon {
   display: block;
-  padding: 0.5em;
+  padding: 0.5rem;
   margin: auto;
   cursor: pointer;
   color: white;
@@ -213,11 +212,12 @@ span.triangle_up {
   position: absolute;
     top: 100%;
     width: 100%;
+    z-index: 999;
 }
 
 #search_bar_mobile input {
   width: 100%;
-  padding: 0.5em;
+  padding: 0.5rem;
   outline: none;
 }
 
@@ -230,7 +230,7 @@ span.triangle_up {
 }
 
 #main_menu_mobile li a {
-  padding: 1em;
+  padding: 1rem;
   display: block;
   text-align: left;
   background-color: #CD5C5C;
@@ -252,5 +252,5 @@ span.triangle_up {
 
 
 #main_menu_mobile .sub_menu_mobile_1 li a {
-  padding-left: 3em;
+  padding-left: 3rem;
 }
