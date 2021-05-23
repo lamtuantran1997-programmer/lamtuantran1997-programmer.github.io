@@ -51,11 +51,12 @@
   
   
   @media only screen and (max-width: 852px) {
-  
     h1 {
       font-size: 2.5vw;
       margin-left: 10em;
       margin-right: 10em;
+      mix-blend-mode: normal;
+      text-shadow: none;
     }
   
   
@@ -110,6 +111,11 @@
       font-size: 2vw;
     }
     
+
+    .content {
+      text-align:center;
+      
+    }
   
   }
   
