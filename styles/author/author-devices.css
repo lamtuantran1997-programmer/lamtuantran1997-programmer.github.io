@@ -72,6 +72,8 @@
      
     }
     #figureZoom {
+      border: 0.5rem solid rgba(222, 184, 135, 0);
+      padding: 1.5rem;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -81,9 +83,7 @@
         align-self: stretch;
     }
 
-    #brief_content{
-      font-size: 2rem;
-    }
+  
     
 
     .content {

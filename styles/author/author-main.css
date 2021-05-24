@@ -78,14 +78,17 @@ main {
     }
   }
   .pagination {
-    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
   }
   
   .pagination a {
     float: left;
     color: #FFE4B5;
     display: block;
-    padding: 1rem 1.5rem;
+    padding: 1rem 0.8rem;
     background-color: #CD5C5C;
   }
   
